@@ -1,7 +1,7 @@
 # get the name of the branch we are on
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-  echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
+  echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(last_commit)$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
 # Checks if working tree is dirty
@@ -91,13 +91,13 @@ last_commit() {
     if [ -n "$g" ]; then
         local MINUTES_SINCE_LAST_COMMIT=`minutes_since_last_commit`
         if [ "$MINUTES_SINCE_LAST_COMMIT" -gt 30 ]; then
-            local COLOR=%{$fg[red]%}
+            local COLOR="%{$fg[red]%}"
         elif [ "$MINUTES_SINCE_LAST_COMMIT" -gt 10 ]; then
-            local COLOR=%{$fg[yellow]%}
+            local COLOR="%{$fg[green]%}"
         else
-            local COLOR=%{$fg[green]%}
+            local COLOR="%{$fg[red]%}"
         fi
-        local SINCE_LAST_COMMIT="|${COLOR}$(minutes_since_last_commit)m"
+        local SINCE_LAST_COMMIT=" ${COLOR}$(minutes_since_last_commit)m%{$reset_color%}"
         echo ${SINCE_LAST_COMMIT}
     fi
 }
