@@ -1,7 +1,7 @@
 # get the name of the branch we are on
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-  echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
+  echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(last_commit)%{$reset_color%}$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
 # Checks if working tree is dirty
@@ -61,4 +61,43 @@ git_prompt_status() {
     STATUS="$ZSH_THEME_GIT_PROMPT_UNMERGED$STATUS"
   fi
   echo $STATUS
+}
+
+__gitdir ()
+{
+  if [ -z "${1-}" ]; then
+    if [ -n "${__git_dir-}" ]; then
+      echo "$__git_dir"
+    elif [ -d .git ]; then
+      echo .git
+    else
+      git rev-parse --git-dir 2>/dev/null
+    fi
+  elif [ -d "$1/.git" ]; then
+    echo "$1/.git"
+  else
+    echo "$1"
+  fi
+}
+function minutes_since_last_commit {
+    now=`date +%s`
+    last_commit=`git log --pretty=format:'%at' -1`
+    seconds_since_last_commit=$((now-last_commit))
+    minutes_since_last_commit=$((seconds_since_last_commit/60))
+    echo $minutes_since_last_commit
+}
+last_commit() {
+    local g="$(__gitdir)"
+    if [ -n "$g" ]; then
+        local MINUTES_SINCE_LAST_COMMIT=`minutes_since_last_commit`
+        if [ "$MINUTES_SINCE_LAST_COMMIT" -gt 30 ]; then
+            local COLOR=%{$fg[red]%}
+        elif [ "$MINUTES_SINCE_LAST_COMMIT" -gt 10 ]; then
+            local COLOR=%{$fg[yellow]%}
+        else
+            local COLOR=%{$fg[green]%}
+        fi
+        local SINCE_LAST_COMMIT="|${COLOR}$(minutes_since_last_commit)m"
+        echo ${SINCE_LAST_COMMIT}
+    fi
 }
