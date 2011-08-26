@@ -93,9 +93,9 @@ last_commit() {
         if [ "$MINUTES_SINCE_LAST_COMMIT" -gt 30 ]; then
             local COLOR="%{$fg[red]%}"
         elif [ "$MINUTES_SINCE_LAST_COMMIT" -gt 10 ]; then
-            local COLOR="%{$fg[yello]%}"
+            local COLOR="%{$fg[yellow]%}"
         else
-            local COLOR="%{$fg[cyan]%}"
+            local COLOR="%{$fg[green]%}"
         fi
         local SINCE_LAST_COMMIT=" ${COLOR}$(minutes_since_last_commit)m%{$reset_color%}"
         echo ${SINCE_LAST_COMMIT}
