@@ -1,7 +1,7 @@
 # Aliases
 alias g='git'
 compdef g=git
-alias gst='git status'
+alias gs='git status'
 compdef _git gst=git-status
 alias gl='git pull'
 compdef _git gl=git-pull
@@ -29,13 +29,11 @@ alias glg='git log --stat --max-count=5'
 compdef _git glg=git-log
 alias glgg='git log --graph --max-count=5'
 compdef _git glgg=git-log
+alias ggraph="git log --oneline --graph"
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
-compdef git-svn-dcommit-push=git
 
-alias gsr='git svn rebase'
-alias gsd='git svn dcommit'
 #
 # Will return the current branch name
 # Usage example: git pull origin $(current_branch)
@@ -52,3 +50,5 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+
+
