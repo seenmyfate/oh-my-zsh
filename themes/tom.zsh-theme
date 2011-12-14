@@ -1,4 +1,4 @@
-PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[cyan]%}$(git_prompt_info) % %{$reset_color%}'
+PROMPT='%{$fg_bold[red]%}➜ %{$reset_color%}%p %c $(git_prompt_info) % %{$reset_color%}'
 
 RPROMPT='[%{$fg[red]%}$(rvm_prompt_info)%{$reset_color%}]'
 
