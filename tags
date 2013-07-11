@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HTTParty	plugins/cloudapp/cloudapp.rb	/^class HTTParty::Response$/;"	c
+__git_branch_names	plugins/git-flow/git-flow.plugin.zsh	/^__git_branch_names () {$/;"	f
+__git_command_successful	plugins/git-flow/git-flow.plugin.zsh	/^__git_command_successful () {$/;"	f
+__git_flow_feature_list	plugins/git-flow/git-flow.plugin.zsh	/^__git_flow_feature_list ()$/;"	f
+__git_flow_hotfix_list	plugins/git-flow/git-flow.plugin.zsh	/^__git_flow_hotfix_list ()$/;"	f
+__git_flow_version_list	plugins/git-flow/git-flow.plugin.zsh	/^__git_flow_version_list ()$/;"	f
+__git_remotes	plugins/git-flow/git-flow.plugin.zsh	/^__git_remotes () {$/;"	f
+__gitdir	lib/git.zsh	/^__gitdir ()$/;"	f
+_ant	plugins/ant/ant.plugin.zsh	/^_ant () {$/;"	f
+_ant_does_target_list_need_generating	plugins/ant/ant.plugin.zsh	/^_ant_does_target_list_need_generating () {$/;"	f
+_applist	plugins/django/django.plugin.zsh	/^_applist() {$/;"	f
+_cake	plugins/cake/cake.plugin.zsh	/^_cake () {$/;"	f
+_cake_does_target_list_need_generating	plugins/cake/cake.plugin.zsh	/^_cake_does_target_list_need_generating () {$/;"	f
+_cap	plugins/cap/cap.plugin.zsh	/^function _cap () {$/;"	f
+_cap_does_task_list_need_generating	plugins/cap/cap.plugin.zsh	/^function _cap_does_task_list_need_generating () {$/;"	f
+_current_epoch	tools/check_for_upgrade.sh	/^function _current_epoch() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-begin() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-down-buffer() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-down-history() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-down-search() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-end() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-up-buffer() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-up-history() {$/;"	f
+_history	plugins/history-substring-search/history-substring-search.zsh	/^function _history-substring-search-up-search() {$/;"	f
+_lein_commands	plugins/lein/lein.plugin.zsh	/^function _lein_commands() {$/;"	f
+_managepy	plugins/django/django.plugin.zsh	/^_managepy() {$/;"	f
+_managepy_cmds	plugins/django/django.plugin.zsh	/^_managepy_cmds(){$/;"	f
+_phing	plugins/phing/phing.plugin.zsh	/^_phing () {$/;"	f
+_phing_does_target_list_need_generating	plugins/phing/phing.plugin.zsh	/^_phing_does_target_list_need_generating () {$/;"	f
+_plugin__start_agent	plugins/ssh-agent/ssh-agent.plugin.zsh	/^function _plugin__start_agent()$/;"	f
+_rails_command	plugins/rails3/rails3.plugin.zsh	/^function _rails_command () {$/;"	f
+_rb18	plugins/rvm/rvm.plugin.zsh	/^_rb18() {compadd `ls -1 $rvm_path\/gems | grep "^$ruby18@" | sed -e "s\/^$ruby18@\/\/" | awk '{print $1}'`}$/;"	f
+_rb19	plugins/rvm/rvm.plugin.zsh	/^_rb19() {compadd `ls -1 $rvm_path\/gems | grep "^$ruby19@" | sed -e "s\/^$ruby19@\/\/" | awk '{print $1}'`}$/;"	f
+_update_zsh_update	tools/check_for_upgrade.sh	/^function _update_zsh_update() {$/;"	f
+_zsh_highlight	plugins/history-substring-search/history-substring-search.zsh	/^  function _zsh_highlight() {$/;"	f
+aliases.zsh	lib/aliases.zsh	1;"	F
+ant.plugin.zsh	plugins/ant/ant.plugin.zsh	1;"	F
+apache2-macports.plugin.zsh	plugins/apache2-macports/apache2-macports.plugin.zsh	1;"	F
+archlinux.plugin.zsh	plugins/archlinux/archlinux.plugin.zsh	1;"	F
+autojump.plugin.zsh	plugins/autojump/autojump.plugin.zsh	1;"	F
+brew.plugin.zsh	plugins/brew/brew.plugin.zsh	1;"	F
+bundler.plugin.zsh	plugins/bundler/bundler.plugin.zsh	1;"	F
+cake.plugin.zsh	plugins/cake/cake.plugin.zsh	1;"	F
+cap.plugin.zsh	plugins/cap/cap.plugin.zsh	1;"	F
+cd	lib/directories.zsh	/^cd () {$/;"	f
+cdf	plugins/osx/osx.plugin.zsh	/^function cdf() {$/;"	f
+check_for_upgrade.sh	tools/check_for_upgrade.sh	1;"	F
+cloudapp.plugin.zsh	plugins/cloudapp/cloudapp.plugin.zsh	1;"	F
+cloudapp.rb	plugins/cloudapp/cloudapp.rb	1;"	F
+command-not-found.plugin.zsh	plugins/command-not-found/command-not-found.plugin.zsh	1;"	F
+compleat.plugin.zsh	plugins/compleat/compleat.plugin.zsh	1;"	F
+completion.zsh	lib/completion.zsh	1;"	F
+correction.zsh	lib/correction.zsh	1;"	F
+current_branch	plugins/git/git.plugin.zsh	/^function current_branch() {$/;"	f
+deb.plugin.zsh	plugins/deb/deb.plugin.zsh	1;"	F
+debian.plugin.zsh	plugins/debian/debian.plugin.zsh	1;"	F
+directories.zsh	lib/directories.zsh	1;"	F
+dirpersist.plugin.zsh	plugins/dirpersist/dirpersist.plugin.zsh	1;"	F
+dirpersistinstall	plugins/dirpersist/dirpersist.plugin.zsh	/^dirpersistinstall () {$/;"	f
+dirpersistrestore	plugins/dirpersist/dirpersist.plugin.zsh	/^dirpersistrestore () {$/;"	f
+dirpersiststore	plugins/dirpersist/dirpersist.plugin.zsh	/^dirpersiststore () {$/;"	f
+django.plugin.zsh	plugins/django/django.plugin.zsh	1;"	F
+edit-command-line.zsh	lib/edit-command-line.zsh	1;"	F
+example.plugin.zsh	custom/example/example.plugin.zsh	1;"	F
+example.zsh	custom/example.zsh	1;"	F
+extract	plugins/extract/extract.plugin.zsh	/^function extract() {$/;"	f
+extract.plugin.zsh	plugins/extract/extract.plugin.zsh	1;"	F
+functions.zsh	lib/functions.zsh	1;"	F
+gdv	plugins/git/git.plugin.zsh	/^gdv() { git-diff -w "$@" | view - }$/;"	f
+gems	plugins/rvm/rvm.plugin.zsh	/^function gems {$/;"	f
+git	plugins/github/github.plugin.zsh	/^    function git(){hub "$@"}$/;"	f
+git-flow.plugin.zsh	plugins/git-flow/git-flow.plugin.zsh	1;"	F
+git.plugin.zsh	plugins/git/git.plugin.zsh	1;"	F
+git.zsh	lib/git.zsh	1;"	F
+git_prompt_ahead	lib/git.zsh	/^function git_prompt_ahead() {$/;"	f
+git_prompt_info	lib/git.zsh	/^function git_prompt_info() {$/;"	f
+git_prompt_long_sha	lib/git.zsh	/^function git_prompt_long_sha() {$/;"	f
+git_prompt_short_sha	lib/git.zsh	/^function git_prompt_short_sha() {$/;"	f
+git_prompt_status	lib/git.zsh	/^git_prompt_status() {$/;"	f
+github.plugin.zsh	plugins/github/github.plugin.zsh	1;"	F
+gpg-agent.plugin.zsh	plugins/gpg-agent/gpg-agent.plugin.zsh	1;"	F
+grep.zsh	lib/grep.zsh	1;"	F
+history	plugins/history-substring-search/history-substring-search.zsh	/^function history-substring-search-down() {$/;"	f
+history	plugins/history-substring-search/history-substring-search.zsh	/^function history-substring-search-up() {$/;"	f
+history-substring-search.plugin.zsh	plugins/history-substring-search/history-substring-search.plugin.zsh	1;"	F
+history-substring-search.zsh	plugins/history-substring-search/history-substring-search.zsh	1;"	F
+history.zsh	lib/history.zsh	1;"	F
+in_svn	plugins/svn/svn.plugin.zsh	/^function in_svn() {$/;"	f
+install.sh	tools/install.sh	1;"	F
+kapow	plugins/pow/pow.plugin.zsh	/^function kapow {$/;"	f
+kate.plugin.zsh	plugins/kate/kate.plugin.zsh	1;"	F
+key-bindings.zsh	lib/key-bindings.zsh	1;"	F
+kt	plugins/kate/kate.plugin.zsh	/^function kt () {$/;"	f
+last_commit	lib/git.zsh	/^last_commit() {$/;"	f
+lein.plugin.zsh	plugins/lein/lein.plugin.zsh	1;"	F
+lighthouse.plugin.zsh	plugins/lighthouse/lighthouse.plugin.zsh	1;"	F
+lol.plugin.zsh	plugins/lol/lol.plugin.zsh	1;"	F
+macports.plugin.zsh	plugins/macports/macports.plugin.zsh	1;"	F
+man	plugins/osx/osx.plugin.zsh	/^function man-preview() {$/;"	f
+mcd	lib/directories.zsh	/^function mcd() { $/;"	f
+minutes_since_last_commit	lib/git.zsh	/^function minutes_since_last_commit {$/;"	f
+misc.zsh	lib/misc.zsh	1;"	F
+mysql-macports.plugin.zsh	plugins/mysql-macports/mysql-macports.plugin.zsh	1;"	F
+newpl	plugins/perl/perl.plugin.zsh	/^newpl () {$/;"	f
+node	plugins/node/node.plugin.zsh	/^function node-docs {$/;"	f
+node.plugin.zsh	plugins/node/node.plugin.zsh	1;"	F
+oh-my-zsh.sh	oh-my-zsh.sh	1;"	F
+ok?	plugins/cloudapp/cloudapp.rb	/^  def ok? ; true end$/;"	f	class:HTTParty
+open_lighthouse_ticket	plugins/lighthouse/lighthouse.plugin.zsh	/^open_lighthouse_ticket () {$/;"	f
+ordinary	plugins/history-substring-search/history-substring-search.zsh	/^  function ordinary-key-press() {$/;"	f
+osx.plugin.zsh	plugins/osx/osx.plugin.zsh	1;"	F
+pacdisowned	plugins/archlinux/archlinux.plugin.zsh	/^pacdisowned() {$/;"	f
+paclist	plugins/archlinux/archlinux.plugin.zsh	/^paclist() {$/;"	f
+parse_git_dirty	lib/git.zsh	/^parse_git_dirty() {$/;"	f
+perl.plugin.zsh	plugins/perl/perl.plugin.zsh	1;"	F
+pfd	plugins/osx/osx.plugin.zsh	/^function pfd() {$/;"	f
+pfs	plugins/osx/osx.plugin.zsh	/^function pfs() {$/;"	f
+pgs	plugins/perl/perl.plugin.zsh	/^pgs() { # [find] [replace] [filename]$/;"	f
+phing.plugin.zsh	plugins/phing/phing.plugin.zsh	1;"	F
+pow.plugin.zsh	plugins/pow/pow.plugin.zsh	1;"	F
+precmd	lib/termsupport.zsh	/^function precmd {$/;"	f
+preexec	lib/termsupport.zsh	/^function preexec {$/;"	f
+prep	plugins/perl/perl.plugin.zsh	/^prep() { # [pattern] [filename unless STDOUT]$/;"	f
+pushdf	plugins/osx/osx.plugin.zsh	/^function pushdf() {$/;"	f
+quick	plugins/osx/osx.plugin.zsh	/^function quick-look() {$/;"	f
+rails.plugin.zsh	plugins/rails/rails.plugin.zsh	1;"	F
+rails3.plugin.zsh	plugins/rails3/rails3.plugin.zsh	1;"	F
+rb18	plugins/rvm/rvm.plugin.zsh	/^function rb18 {$/;"	f
+rb19	plugins/rvm/rvm.plugin.zsh	/^function rb19 {$/;"	f
+remote_console	plugins/rails/rails.plugin.zsh	/^function remote_console() {$/;"	f
+ruby.plugin.zsh	plugins/ruby/ruby.plugin.zsh	1;"	F
+rvm	plugins/rvm/rvm.plugin.zsh	/^function rvm-update {$/;"	f
+rvm.plugin.zsh	plugins/rvm/rvm.plugin.zsh	1;"	F
+rvm.zsh	lib/rvm.zsh	1;"	F
+rvm_prompt_info	lib/rvm.zsh	/^function rvm_prompt_info() {$/;"	f
+say	plugins/perl/perl.plugin.zsh	/^say() {$/;"	f
+spectrum.zsh	lib/spectrum.zsh	1;"	F
+spectrum_ls	lib/spectrum.zsh	/^function spectrum_ls() {$/;"	f
+ssh-agent.plugin.zsh	plugins/ssh-agent/ssh-agent.plugin.zsh	1;"	F
+start_agent	plugins/gpg-agent/gpg-agent.plugin.zsh	/^function start_agent {$/;"	f
+svn.plugin.zsh	plugins/svn/svn.plugin.zsh	1;"	F
+svn_dirty	plugins/svn/svn.plugin.zsh	/^function svn_dirty {$/;"	f
+svn_dirty_choose	plugins/svn/svn.plugin.zsh	/^function svn_dirty_choose {$/;"	f
+svn_get_repo_name	plugins/svn/svn.plugin.zsh	/^function svn_get_repo_name {$/;"	f
+svn_get_rev_nr	plugins/svn/svn.plugin.zsh	/^function svn_get_rev_nr {$/;"	f
+svn_prompt_info	plugins/svn/svn.plugin.zsh	/^function svn_prompt_info {$/;"	f
+tab	plugins/osx/osx.plugin.zsh	/^function tab() {$/;"	f
+take	lib/functions.zsh	/^function take() {$/;"	f
+taskwarrior.plugin.zsh	plugins/taskwarrior/taskwarrior.plugin.zsh	1;"	F
+termsupport.zsh	lib/termsupport.zsh	1;"	F
+textmate.plugin.zsh	plugins/textmate/textmate.plugin.zsh	1;"	F
+theme-and-appearance.zsh	lib/theme-and-appearance.zsh	1;"	F
+title	lib/termsupport.zsh	/^function title {$/;"	f
+tm	plugins/textmate/textmate.plugin.zsh	/^function tm() {$/;"	f
+trash	plugins/osx/osx.plugin.zsh	/^function trash() {$/;"	f
+uninstall.sh	tools/uninstall.sh	1;"	F
+uninstall_oh_my_zsh	lib/functions.zsh	/^function uninstall_oh_my_zsh() {$/;"	f
+upgrade	plugins/archlinux/archlinux.plugin.zsh	/^  upgrade () {$/;"	f
+upgrade	plugins/archlinux/archlinux.plugin.zsh	/^ upgrade() {$/;"	f
+upgrade.sh	tools/upgrade.sh	1;"	F
+upgrade_oh_my_zsh	lib/functions.zsh	/^function upgrade_oh_my_zsh() {$/;"	f
+vi-mode.plugin.zsh	plugins/vi-mode/vi-mode.plugin.zsh	1;"	F
+vi_mode_prompt_info	plugins/vi-mode/vi-mode.plugin.zsh	/^function vi_mode_prompt_info() {$/;"	f
+yum.plugin.zsh	plugins/yum/yum.plugin.zsh	1;"	F
+zle	plugins/vi-mode/vi-mode.plugin.zsh	/^function zle-line-init zle-keymap-select {$/;"	f
+zsh_stats	lib/functions.zsh	/^function zsh_stats() {$/;"	f
