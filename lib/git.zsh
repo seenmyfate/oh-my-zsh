@@ -101,3 +101,14 @@ last_commit() {
         echo ${SINCE_LAST_COMMIT}
     fi
 }
+
+function project_name() {
+  local g="$(__gitdir)"
+  if [ -n "$g" ]; then
+    echo "$(git_description) "
+  fi
+}
+
+function git_description() {
+  cat .git/description
+}
