@@ -105,10 +105,7 @@ last_commit() {
 function project_name() {
   local g="$(__gitdir)"
   if [ -n "$g" ]; then
-    echo "$(git_description) "
+    name="$(cat $g/description)"
+    echo "$name "
   fi
-}
-
-function git_description() {
-  cat .git/description
 }
